@@ -83,3 +83,31 @@ button:hover {
 body {
   padding-top: 80px;
 }
+
+/* تحسين عرض الصندوق الأساسي على الموبايل */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .categories button {
+    width: 45%;
+    margin: 5px 2%;
+    font-size: 13px;
+  }
+
+  button {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .bensa-banner {
+    font-size: 15px;
+    padding: 8px 15px;
+  }
+}
