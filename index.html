@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>Johny_And_Miriam </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="bensa-banner">🍔 ملاحظة: <span class="name">Miriam</span> بتنسى تاكل أحيانًا...  😄</div>
+    <h1>🎲 لعبة الأسئلة: Johny vs Miriam</h1>
+    <p>اختر نوع الأسئلة اللي بدك تلعب فيه 👇</p>
+    <div class="categories">
+      <button onclick="setCategory('light')">خفيف</button>
+      <button onclick="setCategory('deep')">عميق</button>
+      <button onclick="setCategory('whatif')">شو لو</button>
+      <button onclick="setCategory('funny')">مضحك</button>
+    </div>
+    <p id="question">اضغط على الزر لتبدأ الأسئلة 👇</p>
+    <button onclick="getQuestion()">اسأل سؤال</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
